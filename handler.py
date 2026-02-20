@@ -788,7 +788,11 @@ def handler(job):
         final_result["images"] = []
 
     print(f"worker-comfyui - Job completed. Returning {len(output_data)} image(s).")
-    return final_result
+
+
+    # fixing the pipeline here mock the reponse here to see if the pipeline broken from here 
+    return {"images":["image1","image2"]}
+    # return final_result
 
 
 if __name__ == "__main__":
