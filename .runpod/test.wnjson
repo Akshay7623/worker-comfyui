@@ -2,14 +2,14 @@
   "input": {
     "images": [
       {
-        "name": "img.png",
+        "name": "image1.png",
         "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAMklEQVR4nGI5ZdXAQEvARFPTRy0YtWDUglELRi0YtWDUglELRi0YtWDUAioCQAAAAP//E24Bx3jUKuYAAAAASUVORK5CYII="
       }
     ],
     "workflow": {
       "97": {
         "inputs": {
-          "image": "img.png"
+          "image": "image1.png"
         },
         "class_type": "LoadImage",
         "_meta": {
